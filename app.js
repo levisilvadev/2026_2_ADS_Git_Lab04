@@ -8,23 +8,23 @@ function formatUser(user) {
 }
 
 function renderUserBox() {
-  const el = document.getElementById('user-box');
-  const user = { name: 'Usuário Demo', email: 'demo@example.com' };
-  el.textContent = 'Usuário: ' + formatUser(user);
+  const el = document.getElementById("user-box");
+  const user = { name: "Levi", email: "levisilva9395@gmail.com" };
+  el.textContent = "Usuário: " + formatUser(user);
 }
 
 // Conflitos leves em funções diferentes (normalmente merge automático):
 function renderMenu() {
-  const menu = document.getElementById('menu');
+  const menu = document.getElementById("menu");
   // Aluno A pode inserir itens aqui
 }
 
 function renderFooter() {
-  const footer = document.querySelector('footer small');
+  const footer = document.querySelector("footer small");
   // Aluno B pode alterar o texto aqui
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   renderUserBox();
   renderMenu();
   renderFooter();

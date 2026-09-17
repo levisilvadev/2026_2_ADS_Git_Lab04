@@ -3,7 +3,9 @@
 Este repositório será usado para praticar **merges e conflitos** em um projeto front‑end.
 
 ## Como começar
+
 1. Crie sua branch a partir de `develop`:
+
    ```bash
    git checkout develop
    git pull origin develop
@@ -16,7 +18,8 @@ Este repositório será usado para praticar **merges e conflitos** em um projeto
    ```
 
 ## ⚠️ Pontos de conflito propositais
-- **Edite ESTA MESMA LINHA** substituindo por seu nome completo (apenas UMA linha): _SEU NOME AQUI_
+
+- **Edite ESTA MESMA LINHA** substituindo por seu nome completo (apenas UMA linha): Levi Silva
 - Em `app.js`, a função `formatUser()` contém um TODO para múltiplos alunos alterarem o mesmo trecho.
 - Em `index.html`, o bloco `<nav>` deve ser alterado por duas branches diferentes.
 - Em `style.css`, o seletor `nav ul li` deve ser alterado por dois alunos.
