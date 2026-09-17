@@ -3,13 +3,13 @@
 function formatUser(user) {
   // 🔥 PONTO DE CONFLITO: vários alunos alterarão este mesmo trecho
   // TODO: retornar uma string "Nome <email>" OU "NOME - email" OU outro formato padronizado
-  // Exemplo inicial (mude aqui de forma diferente em branches distintas):
-  return `${user.name} (${user.email})`;
-}
+  // Exemplo inicial (mude aqui de forma diferente em branches distintas): 
+  return `${user.name} <(${user.email})>`;
+}    
 
 function renderUserBox() {
   const el = document.getElementById('user-box');
-  const user = { name: 'Usuário Demo', email: 'demo@example.com' };
+  const user = { name: "kay", email: "kaylag@gmail.com" };
   el.textContent = 'Usuário: ' + formatUser(user);
 }
 
