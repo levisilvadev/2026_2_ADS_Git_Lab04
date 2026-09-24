@@ -28,7 +28,10 @@ nav ul {
   gap: 12px;
 }
 nav ul li {
-  /* 🔥 PONTO DE CONFLITO: dois alunos devem alterar este seletor */
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
 }
 nav a {
   text-decoration: none;
